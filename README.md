@@ -25,3 +25,6 @@ Contains 2 http POST methods and 1 http GET method to demonstrate different comp
   data flow is given below:
     **HttpRequestHandlingMessagingGateway** -> httpRequest -> InboundMsgService -> HttpRestInegrationGateway -> httpOutRequest -> **HttpRequestExecutingMessageHandler**
     -> JsonToObjGateway -> jsonToObjInput -> **JsonToObjectTransformer** -> jsonToObjOutput -> InboundMsgService
+
+## You can find brief summary of spring integration from 
+  https://docs.spring.io/spring-integration/docs/4.3.12.RELEASE/reference/html/overview.html
